@@ -1,0 +1,12 @@
+version: '3'
+services:
+  pytorch:
+    image: ghcr.io/varun-a10ai/docker-llm:main
+    command: tail -F anything
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0','1','2']
+              capabilities: [gpu]
