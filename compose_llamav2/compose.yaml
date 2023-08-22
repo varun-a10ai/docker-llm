@@ -1,0 +1,24 @@
+version: '3'
+services:
+  llamav2:
+    build:
+      context: .
+      network: host
+      dockerfile: Dockerfile
+    image: ghcr.io/varun-a10ai/docker-llamav2:main
+    command: /bin/bash
+    volumes:
+      - /mnt/raid/hf_cache:/hf_cache
+      - /mnt/catfs:/s3/alphahealth-ml-artifacts
+    environment:
+      - TRANSFORMERS_CACHE=/hf_cache
+    network_mode: host
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0','1','2','3','4','5','6','7']
+              capabilities: [gpu]

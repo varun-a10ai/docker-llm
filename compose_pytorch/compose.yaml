@@ -2,7 +2,9 @@ version: '3'
 services:
   pytorch:
     image: ghcr.io/varun-a10ai/docker-llm:main
-    command: tail -F anything
+    command: /bin/bash
+    stdin_open: true
+    tty: true
     deploy:
       resources:
         reservations:

@@ -3,6 +3,7 @@ services:
   pytorch:
     build:
       context: .
+      network: host
     image: test:latest
     command: tail -F anything
     ulimits:
