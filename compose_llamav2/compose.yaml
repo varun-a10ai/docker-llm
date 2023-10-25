@@ -9,9 +9,13 @@ services:
     command: /bin/bash
     volumes:
       - /mnt/raid/hf_cache:/hf_cache
-      - /mnt/catfs:/s3/alphahealth-ml-artifacts
+      - /mnt/s3_catfs:/s3/alphahealth-ml-artifacts
+      - $PWD:/app
+      - $HOME/.config/:/root/.config/
+      - $HOME/.cache/:/root/.cache/
     environment:
       - TRANSFORMERS_CACHE=/hf_cache
+      - MAKEFLAGS="-j32"
     network_mode: host
     stdin_open: true
     tty: true
@@ -20,5 +24,5 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              device_ids: ['0','1','2','3','4','5','6','7']
+              count: 8
               capabilities: [gpu]

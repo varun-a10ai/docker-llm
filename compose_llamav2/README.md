@@ -1,4 +1,4 @@
 
 # Usage
-docker compose run 
+docker compose run llamav2
 
