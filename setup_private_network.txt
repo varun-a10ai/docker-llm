@@ -1,0 +1,28 @@
+You need to edit the following file: `/etc/netplan/xx-cloud-init.yaml`
+If the server was attached to the VPC at creation, this may not be needed. If not, you must make the file match the following
+
+```
+network:
+  ethernets:
+    enp157s0f0:
+      critical: true
+      dhcp-identifier: mac
+      dhcp4: true
+      nameservers:
+        addresses:
+        - <THE PUBLIC IP OF THE SERVER>
+    enp157s0f1:
+      routes:
+      - to: 172.16.0.0/12
+        via: 10.40.0.3
+      - to: 10.32.0.0/16
+        via: 10.40.0.3
+      dhcp4: true
+      addresses: [10.40.0.XX/16]
+  ```
+
+  where you update the 10.40.0.XX/16 part and swap XX for the private IP of the server
+
+  When finished, run `sudo netplan apply` to apply the changes
+
+  NOTE: You may need to adjust interface names if they don't match the actual interfaces attached

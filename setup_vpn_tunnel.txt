@@ -1,0 +1,114 @@
+## Run these commands through the Vultr console
+<<run `configure` to enter configuration mode>>
+set interfaces ethernet eth0 address dhcp
+set interfaces ethernet eth0 description 'OUTSIDE'
+set service ssh port '22'
+commit
+save
+
+## Now login via ssh and run these commands
+
+<<run `configure` to enter configuration mode>>
+# Nick Home IP
+# set firewall group network-group Trusted-Networks network '68.112.126.94/32'
+# AWS Public IP
+set firewall group network-group Trusted-Networks network '52.33.194.38/32'
+# S2S VPN Gateway Public IP
+set firewall group network-group Trusted-Networks network '52.33.120.73/32'
+set firewall ipv4 input filter rule 10 action 'jump'
+set firewall ipv4 input filter rule 10 inbound-interface interface-name 'eth0' 
+set firewall ipv4 input filter rule 10 jump-target 'WAN-Management'
+set firewall ipv4 name WAN-Management rule 10 action 'accept'
+set firewall ipv4 name WAN-Management rule 10 state established 'enable' 
+set firewall ipv4 name WAN-Management rule 10 state related 'enable'
+set firewall ipv4 name WAN-Management rule 15 action 'accept'
+set firewall ipv4 name WAN-Management rule 15 protocol 'esp'
+set firewall ipv4 name WAN-Management rule 20 action 'accept'
+set firewall ipv4 name WAN-Management rule 20 protocol 'all'
+set firewall ipv4 name WAN-Management rule 20 source group network-group 'Trusted-Networks' 
+set firewall ipv4 name WAN-Management rule 1000 action 'drop'
+set interfaces loopback lo
+# Set to private IP of this VPN server
+set interfaces ethernet eth1 address '10.40.0.3/16'
+set interfaces ethernet eth1 description 'INSIDE'
+set service ntp allow-client address '0.0.0.0/0'
+set service ntp allow-client address '::/0'
+set service ntp server time1.vyos.net
+set service ntp server time2.vyos.net
+set service ntp server time3.vyos.net
+set service router-advert interface eth0
+set system config-management commit-revisions '100'
+set system conntrack modules ftp
+set system conntrack modules h323
+set system conntrack modules nfs
+set system conntrack modules pptp
+set system conntrack modules sip
+set system conntrack modules sqlnet
+set system conntrack modules tftp
+set system console device ttyS0 speed '115200'
+set system host-name 'vpn-tunnel'
+set system syslog global facility all level 'info'
+set system syslog global facility local7 level 'debug'
+set system login user admin authentication plaintext-password <<PASSWORD>>
+
+
+# Site2Site Setup Commands
+# 64.176.211.110 - Vultr Public IP
+# 52.33.120.73 - AWS Public IP (s2s-gw)
+
+# Customer Gatway Inside IP
+set interfaces vti vti1 address '169.254.9.18/30'
+set interfaces vti vti1 mtu '1436'
+set protocols static route 10.32.0.0/16 next-hop '169.254.9.17'
+# Can't use the whole /8 block or it messes up the instance. If we need access to other subnets, add each one like above
+# set protocols static route 10.0.0.0/8 interface vti1
+set protocols static route 172.16.0.0/12 next-hop '169.254.9.17'
+
+# IPSec
+set vpn ipsec interface eth0
+
+# Pre-shared-secret
+set vpn ipsec authentication psk aws-vpn-1 id '64.176.211.110'
+set vpn ipsec authentication psk aws-vpn-1 id '52.33.120.73'
+set vpn ipsec authentication psk aws-vpn-1 secret <<VPN PRE SHARED KEY>>
+
+# IKE group
+set vpn ipsec ike-group default-ike close-action 'restart'
+set vpn ipsec ike-group default-ike dead-peer-detection action 'restart'
+set vpn ipsec ike-group default-ike key-exchange 'ikev2'
+set vpn ipsec ike-group default-ike lifetime '28800'
+set vpn ipsec ike-group default-ike mode 'main'
+set vpn ipsec ike-group default-ike proposal 1 dh-group '14'
+set vpn ipsec ike-group default-ike proposal 1 encryption 'aes256'
+set vpn ipsec ike-group default-ike proposal 1 hash 'sha256'
+
+# ESP group
+set vpn ipsec esp-group default-esp lifetime '3600'
+set vpn ipsec esp-group default-esp mode 'tunnel'
+set vpn ipsec esp-group default-esp proposal 1 encryption 'aes256'
+set vpn ipsec esp-group default-esp proposal 1 hash 'sha256'
+
+set vpn ipsec options disable-route-autoinstall
+set vpn ipsec site-to-site peer aws-vpn-1 authentication mode 'pre-shared-secret'
+set vpn ipsec site-to-site peer aws-vpn-1 authentication remote-id '52.33.120.73' 
+set vpn ipsec site-to-site peer aws-vpn-1 connection-type 'initiate'
+
+set vpn ipsec site-to-site peer aws-vpn-1 ike-group 'default-ike'
+set vpn ipsec site-to-site peer aws-vpn-1 vti esp-group 'default-esp'
+
+set vpn ipsec site-to-site peer aws-vpn-1 local-address '64.176.211.110'
+set vpn ipsec site-to-site peer aws-vpn-1 remote-address '52.33.120.73' 
+
+set vpn ipsec site-to-site peer aws-vpn-1 vti bind 'vti1'
+
+commit
+save
+
+
+### To setup NAT for forwarding internet bound traffic
+set nat source rule 10 outbound-interface 'eth0'
+set nat source rule 10 source address '10.40.0.0/16'
+set nat source rule 10 translation address 'masquerade'
+
+## Then run the following command on the server you'd like to route traffic from (the instance that should route internet traffic through the VPN)
+# ip route replace default via 10.40.0.3 dev enp8s0

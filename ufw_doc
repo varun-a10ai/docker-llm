@@ -1,0 +1,10 @@
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22                         ALLOW IN    76.226.87.0          # Varun home
+[ 2] 22                         ALLOW IN    52.33.194.38         # AWS VPN     
+[ 3] 22                         ALLOW IN    66.135.10.208        # other server (I think these are not needed)
+[ 4] 22                         ALLOW IN    66.135.24.21         # myself (I think not needed)
+[ 5] Anywhere                   ALLOW IN    10.0.0.2             # infiniband
+
