@@ -1,0 +1,8 @@
+[Unit]
+Description=Setup IP over Infiniband
+
+[Service]
+ExecStart=/adminhome/admin/setup_h100/setup_ib.sh
+
+[Install]
+WantedBy=multi-user.target
