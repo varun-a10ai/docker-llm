@@ -6,6 +6,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 mkdir -p ~/.config/nvim/
 cp -fr neovim/* ~/.config/nvim/
-nvim +PlugInstall
+chmod -R o+wrx ~/.config
+chown -R root:root  ~/.config
+#nvim +VundleInstall
 
 

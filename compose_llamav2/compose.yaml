@@ -6,19 +6,21 @@ services:
       network: host
       dockerfile: Dockerfile
     image: ghcr.io/varun-a10ai/docker-llamav2:main
-    command: /bin/bash
+    command: /bin/bash -c 'su varung'
     volumes:
-      - /mnt/raid/hf_cache:/hf_cache
-      - /mnt/s3_catfs:/s3/alphahealth-ml-artifacts
-      - $PWD:/app
-      - $HOME/.config/:/root/.config/
-      - $HOME/.cache/:/root/.cache/
+      - $HOME:$HOME
+      - /etc/passwd:/etc/passwd
+      - /etc/group:/etc/group
+      - /etc/shadow:/etc/shadow
+      - /etc/gshadow:/etc/gshadow
+      - /home/shared:/shared/
+      - /etc/sudoers:/etc/sudoers
     environment:
-      - TRANSFORMERS_CACHE=/hf_cache
       - MAKEFLAGS="-j32"
     network_mode: host
     stdin_open: true
     tty: true
+    privileged: true
     deploy:
       resources:
         reservations:

@@ -1,6 +1,8 @@
 FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
 RUN apt update
-RUN apt install -y python3.10 pip python3-neovim python3.10-venv sudo curl gh git exuberant-ctags
+RUN apt install -y python3.10 pip python3-neovim python3.10-venv sudo curl gh git exuberant-ctags virtualenv
+RUN virtualenv /venv
+ENV PATH="/venv/bin:$PATH"
 RUN pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
 RUN pip3 install accelerate ipython numpy matplotlib sentencepiece
 RUN pip3 uninstall -y ninja && pip3 install ninja
@@ -13,4 +15,8 @@ RUN pip3 install pudb
 # add contents to /app directory
 ADD . /app
 RUN cd /app/setup_h100 && bash setup_nodejs.sh && bash setup_neovim.sh
+RUN apt install -y screen
+
+# give users ability to access /root/venv
+RUN chmod -R o=u /venv
 WORKDIR /app
