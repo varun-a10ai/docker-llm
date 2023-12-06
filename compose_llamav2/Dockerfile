@@ -6,6 +6,7 @@ ENV PATH="/venv/bin:$PATH"
 RUN pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
 RUN pip3 install accelerate ipython numpy matplotlib sentencepiece
 RUN pip3 uninstall -y ninja && pip3 install ninja
+ENV FLASH_ATTENTION_FORCE_BUILD=TRUE
 RUN pip3 install transformers==4.31.0 sentencepiece ninja flash-attn protobuf --no-build-isolation git+https://github.com/HazyResearch/flash-attention.git#subdirectory=csrc/rotary  
 # install neovim
 RUN pip3 install "fschat[model_worker,webui]"

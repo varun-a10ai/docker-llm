@@ -8,6 +8,6 @@ mkdir -p ~/.config/nvim/
 cp -fr neovim/* ~/.config/nvim/
 chmod -R o+wrx ~/.config
 chown -R root:root  ~/.config
-#nvim +VundleInstall
+#nvim +PlugInstall
 
 
