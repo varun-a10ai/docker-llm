@@ -1,0 +1,306 @@
+1. **Subject-verb agreement errors** - The subject and verb of a sentence must agree in number.
+   "She walk to the store every day." => "She walks to the store every day."
+
+2. **Wrong tense used** - Verb tense should be consistent throughout a sentence.
+   "I go to the cinema yesterday." => "I went to the cinema yesterday."
+
+3. **Double negatives** - Using two negatives in a sentence can turn the meaning into a positive.
+   "I don't need no help." => "I don't need any help."
+
+4. **Misplaced modifiers** - A modifier must be placed next to the word it is supposed to modify.
+   "She found a gold man's watch." => "She found a man's gold watch."
+
+5. **Incorrect pronoun reference** - Pronouns must clearly refer to specific nouns.
+   "Jake told his brother that he failed." => "Jake told his brother that he had failed."
+
+6. **Wrong word form** - Using the wrong form of a word.
+   "I must to go." => "I must go."
+
+7. **Wrong preposition** - Incorrect use of a preposition.
+   "I am good in math." => "I am good at math."
+
+8. **Fragment sentences** - Sentences must have a subject and a predicate.
+   "Walking down the street." => "I was walking down the street."
+
+9. **Run-on sentences** - Two independent clauses need to be separated by punctuation or a conjunction.
+   "I love to read I have many books." => "I love to read. I have many books."
+
+10. **Dangling participles** - The noun that the participle modifies should be clearly stated.
+    "Walking through the door, the view was breathtaking." => "Walking through the door, I found the view breathtaking."
+
+11. **Incorrect comparative or superlative form** - The wrong form of comparison is used.
+    "She is more taller than me." => "She is taller than me."
+
+12. **Inappropriate shift in verb tense** - Verb tenses should remain consistent within a sentence.
+    "I won the lottery and buy a house." => "I won the lottery and bought a house."
+
+13. **Incorrect article usage** - Wrong use or omission of a/an and the.
+    "I saw the eagle." (when it's not a specific eagle) => "I saw an eagle."
+
+14. **Inconsistent parallel structure** - When making a list or comparison, the sentence elements should match in type.
+    "He likes running, to swim, and hiking." => "He likes running, swimming, and hiking."
+
+15. **Incorrect use of infinitives** - Infinitives should not be used where base forms are required and vice versa.
+    "She helped her mother to cook." => "She helped her mother cook."
+
+16. **Incorrect use of reflexive pronouns** - Reflexive pronouns refer back to the subject of the clause.
+    "My sister and myself went shopping." => "My sister and I went shopping."
+
+17. **Incorrect use of adverbs** - Adverbs modify verbs, not adjectives or other adverbs.
+    "She drives very careful." => "She drives very carefully."
+
+18. **Incorrect capitalization** - Proper nouns and the first word of a sentence should be capitalized.
+    "james lives in new york." => "James lives in New York."
+
+19. **Incorrect subject pronoun** - Subject pronouns should be used as subjects.
+    "Me and my friends went to a party." => "My friends and I went to a party."
+
+20. **Incorrect object pronoun** - Object pronouns should be used as objects.
+    "She gave it to I." => "She gave it to me."
+
+21. **Incorrect possessive pronoun** - Possessive pronouns should show possession.
+    "Is that car your's?" => "Is that car yours?"
+
+22. **Unnecessary use of passive voice** - Active voice should be used unless the doer is unknown or unimportant.
+    "The ball was thrown by John." => "John threw the ball."
+
+23. **Incorrect use of apostrophes** - Apostrophes show possession or contraction, not plurals.
+    "The dog's are in the yard." => "The dogs are in the yard."
+
+24. **Misuse of homophones** - Words that sound the same but have different meanings.
+    "I went to the see." => "I went to the sea."
+
+25. **Incorrect use of conjunctions** - Conjunctions join clauses, sentences, or words.
+    "I like tea but not I don't like coffee." => "I like tea but I don't like coffee."
+
+26. **Incorrect word order** - Words in a sentence should be in the correct order.
+    "The cat the chased dog." => "The cat chased the dog."
+
+27. **Wrong use of conditionals** - Incorrect use of conditional forms (if, unless, etc.)
+    "If I would have known, I wouldn't have come." => "If I had known, I wouldn't have come."
+
+28. **Incorrect verb form** - Using the wrong form of the verb.
+    "She don't like fish." => "She doesn't like fish."
+
+29. **Confusing 'its' and 'it's'** - 'Its' is a possessive pronoun and 'it's' is a contraction of 'it is'.
+    "Its raining outside." => "It's raining outside."
+
+30. **Confusing 'your' and 'you're'** - 'Your' is a possessive pronoun and 'you're' is a contraction of 'you are'.
+    "Your welcome." => "You're welcome."
+
+31. **Misplaced or missing commas** - Commas should be used correctly to separate elements in a sentence.
+    "I enjoy cooking my family and my pets." => "I enjoy cooking, my family, and my pets."
+
+32. **Wrong use of the infinitive** - Incorrect use of 'to' with verbs.
+    "I must to leave." => "I must leave."
+
+33. **Confusing 'there', 'their', and 'they're'** - 'There' indicates a place, 'their' is a possessive pronoun, and 'they're' is a contraction of 'they are'.
+    "Their is a cat in they're house over there." => "There is a cat in their house over there."
+
+34. **Using 'literally' in a non-literal context** - 'Literally' should mean 'exactly' or 'actually'.
+    "I was literally dying of laughter." => "I was practically dying of laughter."
+
+35. **Confusing 'less' and 'fewer'** - 'Less' refers to singular mass nouns, 'fewer' to plural count nouns.
+    "There are less cars on the road." => "There are fewer cars on the road."
+
+36. **Redundancy** - Saying the same thing more than once.
+    "Return back to your seats." => "Return to your seats."
+
+37. **Incorrect agreement with collective nouns** - Collective nouns can be singular or plural, depending on context.
+    "The team are celebrating." (When
+
+ referring to the team as a collection of individuals) => "The team is celebrating."
+
+38. **Incorrect use of 'me' and 'I'** - 'Me' is an object pronoun, 'I' is a subject pronoun.
+    "He gave the books to my friend and I." => "He gave the books to my friend and me."
+
+39. **Confusing 'lay' and 'lie'** - 'Lay' requires a direct object, 'lie' does not.
+    "I'm going to lay down." => "I'm going to lie down."
+
+40. **Incorrect use of 'who' and 'whom'** - 'Who' is a subject pronoun, 'whom' is an object pronoun.
+    "Whom did you say that was?" => "Who did you say that was?"
+
+41. **Confusing 'which' and 'that' in relative clauses** - 'That' is used in restrictive clauses, 'which' in non-restrictive (often set off by commas).
+    "I read the book that was on the table." (The book was on the table, not another) => "I read the book, which was on the table." (The book just happened to be on the table)
+
+42. **Confusing 'i.e.' and 'e.g.'** - 'i.e.' means 'that is,' 'e.g.' means 'for example'.
+    "I love fruit, e.g., bananas." (It seems like bananas are the only fruit you love) => "I love fruit, i.e., bananas." (You love fruit, in other words, bananas)
+
+43. **Split infinitives** - Avoid placing an adverb between 'to' and a verb.
+    "She decided to quickly leave." => "She decided to leave quickly."
+
+44. **Incorrect use of 'like' and 'as'** - 'Like' is a preposition, 'as' is a conjunction.
+    "She sings like an angel does." => "She sings as an angel does."
+
+45. **Incorrect use of 'since' and 'because'** - 'Since' refers to time, 'because' refers to causation.
+    "I went to the store because I was out of milk." (It seems like you went to the store at the time you were out of milk) => "I went to the store since I was out of milk." (You went to the store because you were out of milk)
+
+46. **Confusing 'then' and 'than'** - 'Then' refers to time, 'than' is used in comparisons.
+    "I am taller then you." => "I am taller than you."
+
+47. **Incorrect use of 'affect' and 'effect'** - 'Affect' is usually a verb meaning 'to influence,' 'effect' is usually a noun meaning 'result'.
+    "The medicine had a strong effect on me." (The medicine influenced you) => "The medicine had a strong affect on me." (The medicine had a strong result on you)
+
+48. **Confusing 'farther' and 'further'** - 'Farther' refers to physical distance, 'further' refers to an extension of time or degree.
+    "She ran further than me." (She ran a greater distance than you) => "She ran farther than me." (She ran more extended in time or degree than you)
+
+49. **Confusing 'historic' and 'historical'** - 'Historic' means 'important in history,' 'historical' means 'concerning history.'
+    "We visited a historical site." (The site is important in history) => "We visited a historic site." (The site is concerning history)
+
+50. **Incorrect use of 'comprise' and 'compose'** - 'Comprise' means 'to include,' 'compose' means 'to make up.'
+    "The USA is comprised of 50 states." (The USA includes 50 states) => "The USA is composed of 50 states." (50 states make up the USA)
+
+51. **Incorrect use of 'loose' and 'lose'** - 'Loose' is the opposite of tight, 'lose' is the opposite of win.
+    "I hope I don't loose the game." => "I hope I don't lose the game."
+
+52. **Incorrect use of 'envelop' and 'envelope'** - 'Envelop' means to cover or surround, 'envelope' is a container for a letter.
+    "Please place the letter in the envelop." => "Please place the letter in the envelope."
+
+53. **Incorrect use of 'insure', 'ensure', and 'assure'** - 'Insure' relates to insurance, 'ensure' means make certain, 'assure' means tell someone something positively.
+    "I want to insure that you understand." => "I want to ensure that you understand."
+
+54. **Incorrect use of 'continual' and 'continuous'** - 'Continual' means happening repeatedly with breaks in between, 'continuous' means without interruption.
+    "The noise was continual." (The noise was without interruption) => "The noise was continuous." (The noise was happening repeatedly with breaks)
+
+55. **Incorrect use of 'capital' and 'capitol'** - 'Capital' refers to a city, money, or uppercase letters, 'capitol' is a building where legislative work is done.
+    "The capitol of France is Paris." => "The capital of France is Paris."
+
+56. **Incorrect use of 'accept' and 'except'** - 'Accept' means to receive, 'except' means excluding.
+    "I'll except all the presents." => "I'll accept all the presents."
+
+57. **Incorrect use of 'already' and 'all ready'** - 'Already' refers to time, 'all ready' means completely prepared.
+    "I'm all ready finished with my homework." => "I'm already finished with my homework."
+
+58. **Incorrect use of 'desert' and 'dessert'** - 'Desert' is a dry, barren area of land, 'dessert' is the sweet course eaten at the end of a meal.
+    "I would like some desert." => "I would like some dessert."
+
+59. **Incorrect use of 'principle' and 'principal'** - 'Principle' is a basic truth or law, 'principal' is a person who has controlling authority.
+    "The principle of the school is very strict." => "The principal of the school is very strict."
+
+60. **Confusing 'everyday' and 'every day'** - 'Everyday' is an adjective meaning commonplace, 'every day' means each day.
+    "I go to the gym everyday." => "I go to the gym every day."
+
+61. **Incorrect use of 'cite', 'site', and 'sight'** - 'Cite' means to reference, 'site' is a location, 'sight' is the ability to see.
+    "The sight of the new building is beautiful." => "The site of the new building is beautiful."
+
+62. **Confusing 'compliment' and 'complement'** - 'Compliment' is a nice thing you say about someone, 'complement' is something
+
+ that completes or goes well with something.
+    "The tie compliments his suit." => "The tie complements his suit."
+
+63. **Incorrect use of 'fewer' and 'less'** - 'Fewer' is for items you can count, 'less' is for singular mass nouns.
+    "I have less apples than you." => "I have fewer apples than you."
+
+64. **Confusing 'stationary' and 'stationery'** - 'Stationary' means not moving, 'stationery' refers to paper, pens, and other office items.
+    "I wrote a letter on my stationary." => "I wrote a letter on my stationery."
+
+65. **Confusing 'disinterested' and 'uninterested'** - 'Disinterested' means impartial, 'uninterested' means not interested.
+    "I'm uninterested in the outcome of the game." (I don't care about the game at all) => "I'm disinterested in the outcome of the game." (I don't have a stake in the game)
+
+66. **Confusing 'breath' and 'breathe'** - 'Breath' is a noun, the air taken into or expelled from the lungs, 'breathe' is a verb, to inhale and exhale.
+    "I need to take a breathe." => "I need to take a breath."
+
+67. **Incorrect use of 'former' and 'latter'** - 'Former' refers to the first of two things, 'latter' refers to the second.
+    "Of coffee and tea, I prefer the latter." (I prefer coffee) => "Of coffee and tea, I prefer the former." (I prefer coffee)
+
+68. **Incorrect use of 'elicit' and 'illicit'** - 'Elicit' means to draw out, 'illicit' means illegal.
+    "His behavior was designed to illicit a response." => "His behavior was designed to elicit a response."
+
+69. **Confusing 'passed' and 'past'** - 'Passed' is the past tense of 'pass,' 'past' refers to the time gone by.
+    "I walked passed the park." => "I walked past the park."
+
+70. **Incorrect use of 'precede' and 'proceed'** - 'Precede' means to come before, 'proceed' means to go ahead.
+    "We will proceed the meeting with lunch." => "We will precede the meeting with lunch."
+
+71. **Confusing 'allusion' and 'illusion'** - 'Allusion' is an indirect reference, 'illusion' is a false idea or belief.
+    "He made an illusion to the previous agreement." => "He made an allusion to the previous agreement."
+
+72. **Incorrect use of 'born' and 'borne'** - 'Born' is always the past participle of the verb 'bear' when it refers to birth, 'borne' is used in all other senses.
+    "She has borne two children." (She has given birth to two children) => "She has born two children." (She has given birth to two children)
+
+73. **Incorrect use of 'fair' and 'fare'** - 'Fair' can be an adjective meaning just or beautiful, a noun meaning an exhibition, or an adverb meaning clearly, 'fare' refers to a fee or food.
+    "The fair for the bus ride is $2." => "The fare for the bus ride is $2."
+
+74. **Incorrect use of 'lead' and 'led'** - 'Lead' can be a noun meaning a type of metal or a verb meaning to guide, 'led' is the past tense of the verb 'lead.'
+    "She lead the team last year." => "She led the team last year."
+
+75. **Incorrect use of 'pedal' and 'peddle'** - 'Pedal' is a foot-operated lever, 'peddle' means to sell.
+    "He pedaled his wares at the market." => "He peddled his wares at the market."
+
+76. **Incorrect use of 'pour' and 'pore'** - 'Pour' means to flow rapidly, 'pore' as a verb means to read or study attentively.
+    "I'm going to pour over these documents tonight." => "I'm going to pore over these documents tonight."
+
+77. **Incorrect use of 'peek', 'peak', and 'pique'** - 'Peek' means to look quickly, 'peak' is the top point, and 'pique' means to stimulate interest.
+    "My interest is peaked." => "My interest is piqued."
+
+78. **Confusing 'loathe' and 'loath'** - 'Loathe' means to dislike greatly, 'loath' means reluctant.
+    "I'm loathe to admit that I made a mistake." => "I'm loath to admit that I made a mistake."
+
+79. **Incorrect use of 'whether' and 'weather'** - 'Whether' introduces alternatives, 'weather' refers to the state of the atmosphere.
+    "I don't know weather I'm coming or going." => "I don't know whether I'm coming or going."
+
+80. **Incorrect use of 'canvas' and 'canvass'** - 'Canvas' is a type of fabric, 'canvass' means to seek people's votes.
+    "She decided to canvas the neighborhood for support." => "She decided to canvass the neighborhood for support."
+
+81. **Confusing 'bear' and 'bare'** - 'Bear' means to carry, endure or give birth to, 'bare' means naked or to reveal.
+    "I can't bare the weight." => "I can't bear the weight."
+
+82. **Confusing 'eminent', 'imminent', and 'immanent'** - 'Eminent' means famous and respected, 'imminent' means about to happen, and 'immanent' means inherent.
+    "An immanent scientist predicted the eminent arrival of a comet." => "An eminent scientist predicted the imminent arrival of a comet."
+
+83. **Incorrect use of 'flaunt' and 'flout'** - 'Flaunt' means to show off, 'flout' means to openly disregard.
+    "He flouted his wealth." => "He flaunted his wealth."
+
+84. **Incorrect use of 'moot'** - 'Moot' means subject to debate, dispute, or uncertainty, and probably not admitting of a final decision.
+    "It's a mute point." => "It's a moot point."
+
+85. **Incorrect use of 'proscribe' and 'prescribe'** - 'Proscribe' means to forbid, 'prescribe' means to recommend.
+    "Doctors proscribed medication to treat the illness." => "Doctors prescribed medication to treat the illness."
+
+86. **Incorrect use of 'imply' and 'infer'** - 'Imply' means to suggest, 'infer' means to deduce.
+    "Are you inferring that I'm wrong?" => "Are you implying that I'm wrong?"
+
+87. **Incorrect use of 'alright' and 'all right'** - 'Alright' is nonstandard, 'all right' is standard English.
+    "Is everything alright
+
+?" => "Is everything all right?"
+
+88. **Incorrect use of 'discreet' and 'discrete'** - 'Discreet' means careful and circumspect, 'discrete' means separate and distinct.
+    "We offer a discrete service." => "We offer a discreet service."
+
+89. **Incorrect use of 'capital' and 'capitol'** - 'Capital' refers to a city, wealth, or an uppercase letter, 'capitol' refers to a building where legislative work is done.
+    "The capitol of France is Paris." => "The capital of France is Paris."
+
+90. **Incorrect use of 'principle' and 'principal'** - 'Principle' is a fundamental truth or proposition, 'principal' is the most important, consequential, or influential.
+    "He's a man of great principal." => "He's a man of great principle."
+
+91. **Confusing 'forth' and 'fourth'** - 'Forth' means forward in time, place, or order; 'fourth' refers to the number 4 in a series.
+    "On the forth day of Christmas..." => "On the fourth day of Christmas..."
+
+92. **Incorrect use of 'lose' and 'loose'** - 'Lose' means to be deprived of or cease to have or retain, 'loose' means not firmly or tightly fixed in place.
+    "I always loose my keys." => "I always lose my keys."
+
+93. **Confusing 'affect' and 'effect'** - 'Affect' is usually a verb meaning to influence, 'effect' is usually a noun meaning a result.
+    "The drug had an immediate affect on her symptoms." => "The drug had an immediate effect on her symptoms."
+
+94. **Incorrect use of 'accept' and 'except'** - 'Accept' means to receive, 'except' means excluding.
+    "I like all vegetables accept broccoli." => "I like all vegetables except broccoli."
+
+95. **Incorrect use of 'they're', 'their', and 'there'** - 'They're' is a contraction of 'they are', 'their' is a possessive pronoun, and 'there' refers to a place.
+    "Their going to they're house over there." => "They're going to their house over there."
+
+96. **Incorrect use of 'its' and 'it's'** - 'Its' is a possessive pronoun, 'it's' is a contraction of 'it is' or 'it has'.
+    "It's tail is long." => "Its tail is long."
+
+97. **Incorrect use of 'you're' and 'your'** - 'You're' is a contraction of 'you are', 'your' is a possessive pronoun.
+    "Your going to love it." => "You're going to love it."
+
+98. **Incorrect use of 'to', 'two', and 'too'** - 'To' is a preposition, 'two' is a number, and 'too' means also or excessively.
+    "Two much of anything is bad for you." => "Too much of anything is bad for you."
+
+99. **Incorrect use of 'whos' and 'whose'** - 'Whos' is not a word, 'whose' is a possessive pronoun.
+    "Whos book is this?" => "Whose book is this?"
+
+100. **Incorrect use of 'then' and 'than'** - 'Then' refers to a time, 'than' is used for comparisons.
+    "I'm taller then you." => "I'm taller than you."
+

@@ -1,0 +1,550 @@
+- Rule:
+    Description: The subject and verb of a sentence must agree in number.
+    Example:
+      Right: She walks to the store every day.
+      Wrong: She walk to the store every day.
+    Name: Subject-verb agreement errors
+- Rule:
+    Description: Verb tense should be consistent throughout a sentence.
+    Example:
+      Right: I went to the cinema yesterday.
+      Wrong: I go to the cinema yesterday.
+    Name: Wrong tense used
+- Rule:
+    Description: Using two negatives in a sentence can turn the meaning into a positive.
+    Example:
+      Right: I don't need any help.
+      Wrong: I don't need no help.
+    Name: Double negatives
+- Rule:
+    Description: A modifier must be placed next to the word it is supposed to modify.
+    Example:
+      Right: She found a man's gold watch.
+      Wrong: She found a gold man's watch.
+    Name: Misplaced modifiers
+- Rule:
+    Description: Pronouns must clearly refer to specific nouns.
+    Example:
+      Right: Jake told his brother that he had failed.
+      Wrong: Jake told his brother that he failed.
+    Name: Incorrect pronoun reference
+- Rule:
+    Description: Using the wrong form of a word.
+    Example:
+      Right: I must go.
+      Wrong: I must to go.
+    Name: Wrong word form
+- Rule:
+    Description: Incorrect use of a preposition.
+    Example:
+      Right: I am good at math.
+      Wrong: I am good in math.
+    Name: Wrong preposition
+- Rule:
+    Description: Sentences must have a subject and a predicate.
+    Example:
+      Right: I was walking down the street.
+      Wrong: Walking down the street.
+    Name: Fragment sentences
+- Rule:
+    Description: Two independent clauses need to be separated by punctuation or a
+      conjunction.
+    Example:
+      Right: I love to read. I have many books.
+      Wrong: I love to read I have many books.
+    Name: Run-on sentences
+- Rule:
+    Description: The noun that the participle modifies should be clearly stated.
+    Example:
+      Right: Walking through the door, I found the view breathtaking.
+      Wrong: Walking through the door, the view was breathtaking.
+    Name: Dangling participles
+- Rule:
+    Description: The wrong form of comparison is used.
+    Example:
+      Right: She is taller than me.
+      Wrong: She is more taller than me.
+    Name: Incorrect comparative or superlative form
+- Rule:
+    Description: Verb tenses should remain consistent within a sentence.
+    Example:
+      Right: I won the lottery and bought a house.
+      Wrong: I won the lottery and buy a house.
+    Name: Inappropriate shift in verb tense
+- Rule:
+    Description: When making a list or comparison, the sentence elements should match
+      in type.
+    Example:
+      Right: He likes running, swimming, and hiking.
+      Wrong: He likes running, to swim, and hiking.
+    Name: Inconsistent parallel structure
+- Rule:
+    Description: Infinitives should not be used where base forms are required and
+      vice versa.
+    Example:
+      Right: She helped her mother cook.
+      Wrong: She helped her mother to cook.
+    Name: Incorrect use of infinitives
+- Rule:
+    Description: Reflexive pronouns refer back to the subject of the clause.
+    Example:
+      Right: My sister and I went shopping.
+      Wrong: My sister and myself went shopping.
+    Name: Incorrect use of reflexive pronouns
+- Rule:
+    Description: Adverbs modify verbs, not adjectives or other adverbs.
+    Example:
+      Right: She drives very carefully.
+      Wrong: She drives very careful.
+    Name: Incorrect use of adverbs
+- Rule:
+    Description: Proper nouns and the first word of a sentence should be capitalized.
+    Example:
+      Right: James lives in New York.
+      Wrong: james lives in new york.
+    Name: Incorrect capitalization
+- Rule:
+    Description: Subject pronouns should be used as subjects.
+    Example:
+      Right: My friends and I went to a party.
+      Wrong: Me and my friends went to a party.
+    Name: Incorrect subject pronoun
+- Rule:
+    Description: Object pronouns should be used as objects.
+    Example:
+      Right: She gave it to me.
+      Wrong: She gave it to I.
+    Name: Incorrect object pronoun
+- Rule:
+    Description: Possessive pronouns should show possession.
+    Example:
+      Right: Is that car yours?
+      Wrong: Is that car your's?
+    Name: Incorrect possessive pronoun
+- Rule:
+    Description: Active voice should be used unless the doer is unknown or unimportant.
+    Example:
+      Right: John threw the ball.
+      Wrong: The ball was thrown by John.
+    Name: Unnecessary use of passive voice
+- Rule:
+    Description: Apostrophes show possession or contraction, not plurals.
+    Example:
+      Right: The dogs are in the yard.
+      Wrong: The dog's are in the yard.
+    Name: Incorrect use of apostrophes
+- Rule:
+    Description: Words that sound the same but have different meanings.
+    Example:
+      Right: I went to the sea.
+      Wrong: I went to the see.
+    Name: Misuse of homophones
+- Rule:
+    Description: Conjunctions join clauses, sentences, or words.
+    Example:
+      Right: I like tea but I don't like coffee.
+      Wrong: I like tea but not I don't like coffee.
+    Name: Incorrect use of conjunctions
+- Rule:
+    Description: Words in a sentence should be in the correct order.
+    Example:
+      Right: The cat chased the dog.
+      Wrong: The cat the chased dog.
+    Name: Incorrect word order
+- Rule:
+    Description: Incorrect use of conditional forms (if, unless, etc.)
+    Example:
+      Right: If I had known, I wouldn't have come.
+      Wrong: If I would have known, I wouldn't have come.
+    Name: Wrong use of conditionals
+- Rule:
+    Description: Using the wrong form of the verb.
+    Example:
+      Right: She doesn't like fish.
+      Wrong: She don't like fish.
+    Name: Incorrect verb form
+- Rule:
+    Description: '''Its'' is a possessive pronoun and ''it''s'' is a contraction of
+      ''it is''.'
+    Example:
+      Right: It's raining outside.
+      Wrong: Its raining outside.
+    Name: Confusing 'its' and 'it's'
+- Rule:
+    Description: '''Your'' is a possessive pronoun and ''you''re'' is a contraction
+      of ''you are''.'
+    Example:
+      Right: You're welcome.
+      Wrong: Your welcome.
+    Name: Confusing 'your' and 'you're'
+- Rule:
+    Description: Commas should be used correctly to separate elements in a sentence.
+    Example:
+      Right: I enjoy cooking, my family, and my pets.
+      Wrong: I enjoy cooking my family and my pets.
+    Name: Misplaced or missing commas
+- Rule:
+    Description: Incorrect use of 'to' with verbs.
+    Example:
+      Right: I must leave.
+      Wrong: I must to leave.
+    Name: Wrong use of the infinitive
+- Rule:
+    Description: '''There'' indicates a place, ''their'' is a possessive pronoun,
+      and ''they''re'' is a contraction of ''they are''.'
+    Example:
+      Right: There is a cat in their house over there.
+      Wrong: Their is a cat in they're house over there.
+    Name: Confusing 'there', 'their', and 'they're'
+- Rule:
+    Description: '''Literally'' should mean ''exactly'' or ''actually''.'
+    Example:
+      Right: I was practically dying of laughter.
+      Wrong: I was literally dying of laughter.
+    Name: Using 'literally' in a non-literal context
+- Rule:
+    Description: '''Less'' refers to singular mass nouns, ''fewer'' to plural count
+      nouns.'
+    Example:
+      Right: There are fewer cars on the road.
+      Wrong: There are less cars on the road.
+    Name: Confusing 'less' and 'fewer'
+- Rule:
+    Description: Saying the same thing more than once.
+    Example:
+      Right: Return to your seats.
+      Wrong: Return back to your seats.
+    Name: Redundancy
+- Rule:
+    Description: '''Me'' is an object pronoun, ''I'' is a subject pronoun.'
+    Example:
+      Right: He gave the books to my friend and me.
+      Wrong: He gave the books to my friend and I.
+    Name: Incorrect use of 'me' and 'I'
+- Rule:
+    Description: '''Lay'' requires a direct object, ''lie'' does not.'
+    Example:
+      Right: I'm going to lie down.
+      Wrong: I'm going to lay down.
+    Name: Confusing 'lay' and 'lie'
+- Rule:
+    Description: '''Who'' is a subject pronoun, ''whom'' is an object pronoun.'
+    Example:
+      Right: Who did you say that was?
+      Wrong: Whom did you say that was?
+    Name: Incorrect use of 'who' and 'whom'
+- Rule:
+    Description: Avoid placing an adverb between 'to' and a verb.
+    Example:
+      Right: She decided to leave quickly.
+      Wrong: She decided to quickly leave.
+    Name: Split infinitives
+- Rule:
+    Description: '''Like'' is a preposition, ''as'' is a conjunction.'
+    Example:
+      Right: She sings as an angel does.
+      Wrong: She sings like an angel does.
+    Name: Incorrect use of 'like' and 'as'
+- Rule:
+    Description: '''Then'' refers to time, ''than'' is used in comparisons.'
+    Example:
+      Right: I am taller than you.
+      Wrong: I am taller then you.
+    Name: Confusing 'then' and 'than'
+- Rule:
+    Description: '''Loose'' is the opposite of tight, ''lose'' is the opposite of
+      win.'
+    Example:
+      Right: I hope I don't lose the game.
+      Wrong: I hope I don't loose the game.
+    Name: Incorrect use of 'loose' and 'lose'
+- Rule:
+    Description: '''Envelop'' means to cover or surround, ''envelope'' is a container
+      for a letter.'
+    Example:
+      Right: Please place the letter in the envelope.
+      Wrong: Please place the letter in the envelop.
+    Name: Incorrect use of 'envelop' and 'envelope'
+- Rule:
+    Description: '''Insure'' relates to insurance, ''ensure'' means make certain,
+      ''assure'' means tell someone something positively.'
+    Example:
+      Right: I want to ensure that you understand.
+      Wrong: I want to insure that you understand.
+    Name: Incorrect use of 'insure', 'ensure', and 'assure'
+- Rule:
+    Description: '''Capital'' refers to a city, money, or uppercase letters, ''capitol''
+      is a building where legislative work is done.'
+    Example:
+      Right: The capital of France is Paris.
+      Wrong: The capitol of France is Paris.
+    Name: Incorrect use of 'capital' and 'capitol'
+- Rule:
+    Description: '''Accept'' means to receive, ''except'' means excluding.'
+    Example:
+      Right: I'll accept all the presents.
+      Wrong: I'll except all the presents.
+    Name: Incorrect use of 'accept' and 'except'
+- Rule:
+    Description: '''Already'' refers to time, ''all ready'' means completely prepared.'
+    Example:
+      Right: I'm already finished with my homework.
+      Wrong: I'm all ready finished with my homework.
+    Name: Incorrect use of 'already' and 'all ready'
+- Rule:
+    Description: '''Desert'' is a dry, barren area of land, ''dessert'' is the sweet
+      course eaten at the end of a meal.'
+    Example:
+      Right: I would like some dessert.
+      Wrong: I would like some desert.
+    Name: Incorrect use of 'desert' and 'dessert'
+- Rule:
+    Description: '''Principle'' is a basic truth or law, ''principal'' is a person
+      who has controlling authority.'
+    Example:
+      Right: The principal of the school is very strict.
+      Wrong: The principle of the school is very strict.
+    Name: Incorrect use of 'principle' and 'principal'
+- Rule:
+    Description: '''Everyday'' is an adjective meaning commonplace, ''every day''
+      means each day.'
+    Example:
+      Right: I go to the gym every day.
+      Wrong: I go to the gym everyday.
+    Name: Confusing 'everyday' and 'every day'
+- Rule:
+    Description: '''Cite'' means to reference, ''site'' is a location, ''sight'' is
+      the ability to see.'
+    Example:
+      Right: The site of the new building is beautiful.
+      Wrong: The sight of the new building is beautiful.
+    Name: Incorrect use of 'cite', 'site', and 'sight'
+- Rule:
+    Description: '''Fewer'' is for items you can count, ''less'' is for singular mass
+      nouns.'
+    Example:
+      Right: I have fewer apples than you.
+      Wrong: I have less apples than you.
+    Name: Incorrect use of 'fewer' and 'less'
+- Rule:
+    Description: '''Stationary'' means not moving, ''stationery'' refers to paper,
+      pens, and other office items.'
+    Example:
+      Right: I wrote a letter on my stationery.
+      Wrong: I wrote a letter on my stationary.
+    Name: Confusing 'stationary' and 'stationery'
+- Rule:
+    Description: '''Breath'' is a noun, the air taken into or expelled from the lungs,
+      ''breathe'' is a verb, to inhale and exhale.'
+    Example:
+      Right: I need to take a breath.
+      Wrong: I need to take a breathe.
+    Name: Confusing 'breath' and 'breathe'
+- Rule:
+    Description: '''Elicit'' means to draw out, ''illicit'' means illegal.'
+    Example:
+      Right: His behavior was designed to elicit a response.
+      Wrong: His behavior was designed to illicit a response.
+    Name: Incorrect use of 'elicit' and 'illicit'
+- Rule:
+    Description: '''Passed'' is the past tense of ''pass,'' ''past'' refers to the
+      time gone by.'
+    Example:
+      Right: I walked past the park.
+      Wrong: I walked passed the park.
+    Name: Confusing 'passed' and 'past'
+- Rule:
+    Description: '''Precede'' means to come before, ''proceed'' means to go ahead.'
+    Example:
+      Right: We will precede the meeting with lunch.
+      Wrong: We will proceed the meeting with lunch.
+    Name: Incorrect use of 'precede' and 'proceed'
+- Rule:
+    Description: '''Allusion'' is an indirect reference, ''illusion'' is a false idea
+      or belief.'
+    Example:
+      Right: He made an allusion to the previous agreement.
+      Wrong: He made an illusion to the previous agreement.
+    Name: Confusing 'allusion' and 'illusion'
+- Rule:
+    Description: '''Fair'' can be an adjective meaning just or beautiful, a noun meaning
+      an exhibition, or an adverb meaning clearly, ''fare'' refers to a fee or food.'
+    Example:
+      Right: The fare for the bus ride is $2.
+      Wrong: The fair for the bus ride is $2.
+    Name: Incorrect use of 'fair' and 'fare'
+- Rule:
+    Description: '''Lead'' can be a noun meaning a type of metal or a verb meaning
+      to guide, ''led'' is the past tense of the verb ''lead.'''
+    Example:
+      Right: She led the team last year.
+      Wrong: She lead the team last year.
+    Name: Incorrect use of 'lead' and 'led'
+- Rule:
+    Description: '''Pedal'' is a foot-operated lever, ''peddle'' means to sell.'
+    Example:
+      Right: He peddled his wares at the market.
+      Wrong: He pedaled his wares at the market.
+    Name: Incorrect use of 'pedal' and 'peddle'
+- Rule:
+    Description: '''Pour'' means to flow rapidly, ''pore'' as a verb means to read
+      or study attentively.'
+    Example:
+      Right: I'm going to pore over these documents tonight.
+      Wrong: I'm going to pour over these documents tonight.
+    Name: Incorrect use of 'pour' and 'pore'
+- Rule:
+    Description: '''Peek'' means to look quickly, ''peak'' is the top point, and ''pique''
+      means to stimulate interest.'
+    Example:
+      Right: My interest is piqued.
+      Wrong: My interest is peaked.
+    Name: Incorrect use of 'peek', 'peak', and 'pique'
+- Rule:
+    Description: '''Loathe'' means to dislike greatly, ''loath'' means reluctant.'
+    Example:
+      Right: I'm loath to admit that I made a mistake.
+      Wrong: I'm loathe to admit that I made a mistake.
+    Name: Confusing 'loathe' and 'loath'
+- Rule:
+    Description: '''Whether'' introduces alternatives, ''weather'' refers to the state
+      of the atmosphere.'
+    Example:
+      Right: I don't know whether I'm coming or going.
+      Wrong: I don't know weather I'm coming or going.
+    Name: Incorrect use of 'whether' and 'weather'
+- Rule:
+    Description: '''Canvas'' is a type of fabric, ''canvass'' means to seek people''s
+      votes.'
+    Example:
+      Right: She decided to canvass the neighborhood for support.
+      Wrong: She decided to canvas the neighborhood for support.
+    Name: Incorrect use of 'canvas' and 'canvass'
+- Rule:
+    Description: '''Bear'' means to carry, endure or give birth to, ''bare'' means
+      naked or to reveal.'
+    Example:
+      Right: I can't bear the weight.
+      Wrong: I can't bare the weight.
+    Name: Confusing 'bear' and 'bare'
+- Rule:
+    Description: '''Eminent'' means famous and respected, ''imminent'' means about
+      to happen, and ''immanent'' means inherent.'
+    Example:
+      Right: An eminent scientist predicted the imminent arrival of a comet.
+      Wrong: An immanent scientist predicted the eminent arrival of a comet.
+    Name: Confusing 'eminent', 'imminent', and 'immanent'
+- Rule:
+    Description: '''Flaunt'' means to show off, ''flout'' means to openly disregard.'
+    Example:
+      Right: He flaunted his wealth.
+      Wrong: He flouted his wealth.
+    Name: Incorrect use of 'flaunt' and 'flout'
+- Rule:
+    Description: '''Moot'' means subject to debate, dispute, or uncertainty, and probably
+      not admitting of a final decision.'
+    Example:
+      Right: It's a moot point.
+      Wrong: It's a mute point.
+    Name: Incorrect use of 'moot'
+- Rule:
+    Description: '''Proscribe'' means to forbid, ''prescribe'' means to recommend.'
+    Example:
+      Right: Doctors prescribed medication to treat the illness.
+      Wrong: Doctors proscribed medication to treat the illness.
+    Name: Incorrect use of 'proscribe' and 'prescribe'
+- Rule:
+    Description: '''Imply'' means to suggest, ''infer'' means to deduce.'
+    Example:
+      Right: Are you implying that I'm wrong?
+      Wrong: Are you inferring that I'm wrong?
+    Name: Incorrect use of 'imply' and 'infer'
+- Rule:
+    Description: '''Discreet'' means careful and circumspect, ''discrete'' means separate
+      and distinct.'
+    Example:
+      Right: We offer a discreet service.
+      Wrong: We offer a discrete service.
+    Name: Incorrect use of 'discreet' and 'discrete'
+- Rule:
+    Description: '''Capital'' refers to a city, wealth, or an uppercase letter, ''capitol''
+      refers to a building where legislative work is done.'
+    Example:
+      Right: The capital of France is Paris.
+      Wrong: The capitol of France is Paris.
+    Name: Incorrect use of 'capital' and 'capitol'
+- Rule:
+    Description: '''Principle'' is a fundamental truth or proposition, ''principal''
+      is the most important, consequential, or influential.'
+    Example:
+      Right: He's a man of great principle.
+      Wrong: He's a man of great principal.
+    Name: Incorrect use of 'principle' and 'principal'
+- Rule:
+    Description: '''Forth'' means forward in time, place, or order; ''fourth'' refers
+      to the number 4 in a series.'
+    Example:
+      Right: On the fourth day of Christmas...
+      Wrong: On the forth day of Christmas...
+    Name: Confusing 'forth' and 'fourth'
+- Rule:
+    Description: '''Lose'' means to be deprived of or cease to have or retain, ''loose''
+      means not firmly or tightly fixed in place.'
+    Example:
+      Right: I always lose my keys.
+      Wrong: I always loose my keys.
+    Name: Incorrect use of 'lose' and 'loose'
+- Rule:
+    Description: '''Affect'' is usually a verb meaning to influence, ''effect'' is
+      usually a noun meaning a result.'
+    Example:
+      Right: The drug had an immediate effect on her symptoms.
+      Wrong: The drug had an immediate affect on her symptoms.
+    Name: Confusing 'affect' and 'effect'
+- Rule:
+    Description: '''Accept'' means to receive, ''except'' means excluding.'
+    Example:
+      Right: I like all vegetables except broccoli.
+      Wrong: I like all vegetables accept broccoli.
+    Name: Incorrect use of 'accept' and 'except'
+- Rule:
+    Description: '''They''re'' is a contraction of ''they are'', ''their'' is a possessive
+      pronoun, and ''there'' refers to a place.'
+    Example:
+      Right: They're going to their house over there.
+      Wrong: Their going to they're house over there.
+    Name: Incorrect use of 'they're', 'their', and 'there'
+- Rule:
+    Description: '''Its'' is a possessive pronoun, ''it''s'' is a contraction of ''it
+      is'' or ''it has''.'
+    Example:
+      Right: Its tail is long.
+      Wrong: It's tail is long.
+    Name: Incorrect use of 'its' and 'it's'
+- Rule:
+    Description: '''You''re'' is a contraction of ''you are'', ''your'' is a possessive
+      pronoun.'
+    Example:
+      Right: You're going to love it.
+      Wrong: Your going to love it.
+    Name: Incorrect use of 'you're' and 'your'
+- Rule:
+    Description: '''To'' is a preposition, ''two'' is a number, and ''too'' means
+      also or excessively.'
+    Example:
+      Right: Too much of anything is bad for you.
+      Wrong: Two much of anything is bad for you.
+    Name: Incorrect use of 'to', 'two', and 'too'
+- Rule:
+    Description: '''Whos'' is not a word, ''whose'' is a possessive pronoun.'
+    Example:
+      Right: Whose book is this?
+      Wrong: Whos book is this?
+    Name: Incorrect use of 'whos' and 'whose'
+- Rule:
+    Description: '''Then'' refers to a time, ''than'' is used for comparisons.'
+    Example:
+      Right: I'm taller than you.
+      Wrong: I'm taller then you.
+    Name: Incorrect use of 'then' and 'than'
+
