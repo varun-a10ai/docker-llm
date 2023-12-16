@@ -1,10 +1,26 @@
 version: '3'
 services:
   pytorch:
-    image: ghcr.io/varun-a10ai/docker-llm:main
-    command: /bin/bash
+    build:
+      context: .
+      network: host
+      dockerfile: Dockerfile
+    image: ghcr.io/varun-a10ai/pytorch:main
+    command: /bin/bash -c 'su varung'
+    volumes:
+      - $HOME:$HOME
+      - /etc/passwd:/etc/passwd
+      - /etc/group:/etc/group
+      - /etc/shadow:/etc/shadow
+      - /etc/gshadow:/etc/gshadow
+      - /home/shared:/shared/
+      - /etc/sudoers:/etc/sudoers
+    environment:
+      - MAKEFLAGS="-j32"
+    network_mode: host
     stdin_open: true
     tty: true
+    privileged: true
     deploy:
       resources:
         reservations:
